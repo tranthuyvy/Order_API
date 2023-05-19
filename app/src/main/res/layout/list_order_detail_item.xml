@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="16dp">
+    <LinearLayout
+        android:background="@drawable/background_linear"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:id="@+id/ivImageOrderDetailItem"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="5sp"
+            android:layout_gravity="center"
+            android:src="@drawable/s20_699" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130sp"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvNameOrderDetailItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="SAMSUNG Galaxy S20 FE 5G Cell Phone"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tvPriceOrderDetailItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="123"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="bold"
+                android:drawableRight="@drawable/baseline_attach_money_24"
+                android:drawableTint="@color/design_default_color_error"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/tvAmountOrderDetailItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="2"
+                android:textColor="@color/purple_700"
+                android:drawableLeft="@drawable/baseline_clear_24"
+                android:drawableTint="@color/purple_700"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

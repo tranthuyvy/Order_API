@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GiuaKyAndroid</string>
+    <string name="ORDER">ORDER</string>
+    <string name="filterBy">Filter by: </string>
+    <string name="OrderDetail">Order Detail</string>
+    <string name="OrderID">Order ID:</string>
+    <string name="OrderTime">Order Time: </string>
+    <string name="Status">Status: </string>
+    <string name="total">Totals: </string>
+</resources>
