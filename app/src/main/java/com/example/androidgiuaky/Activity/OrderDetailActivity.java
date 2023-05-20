@@ -45,7 +45,7 @@ public class OrderDetailActivity extends AppCompatActivity {
         for (Map.Entry<Long, Integer> entry : order.getOrderDetails().entrySet()) {
             Long productId = entry.getKey();
             Integer amount = entry.getValue();
-            // Do something with productId and amount
+            // tính tổng
             for (Product product : productList) {
                 System.out.print("ok");
                 if (productId == product.getProductId()) {

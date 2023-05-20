@@ -22,7 +22,7 @@ import retrofit2.http.Query;
 
 public interface ApiService {
 
-    String token = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJxdWFuZ2h1bmciLCJpYXQiOjE2ODQ0OTE3MDAsImV4cCI6MTY4NDU3ODEwMH0.LFupr02qsM5HhaUXrL6KRphWjFw6SKT7zA_vJ8xIuHOSmcnfbPMAmj_JjcK3dfiFS_QoxCYENihfghvqNj-Xxw";
+    String token = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJxdWFuZ2h1bmciLCJpYXQiOjE2ODQ1NTQyNjEsImV4cCI6MTY4NDY0MDY2MX0.G0nj4ZVkdYeoT0Oo8HflJOA73CKj_segBPEYr2QJmixcCBNJLWN6FA8JhpGeol96kBsH_0QJhceu0McKOzRLXg";
     OkHttpClient client = new OkHttpClient.Builder()
             .connectTimeout(100, TimeUnit.SECONDS)
             .readTimeout(100,TimeUnit.SECONDS)

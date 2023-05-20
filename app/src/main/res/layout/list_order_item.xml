@@ -225,9 +225,9 @@
         android:enabled="true"
         android:text="Hủy Đơn Hàng"
         android:textColor="@color/white"
+        android:textStyle="bold"
         android:textSize="20sp"
         android:visibility="visible"
-        android:focusable="false"
-        app:backgroundTint="?android:attr/colorFocusedHighlight" />
+        android:focusable="false" />
 
 </LinearLayout>
