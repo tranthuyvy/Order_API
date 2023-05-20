@@ -34,7 +34,7 @@ public class OrderAdapter extends BaseAdapter {
     List<Product> productList;
     String userName = "Thùy Vy";
     String phoneNumber = "0373162586";
-    String userAddress = "Đỗ Xuân Hợp, TP.Thủ Đức, TP.HCM";
+    String userAddress = "TP.Thủ Đức, TP.HCM";
     public OrderAdapter(Context context, List<Order> orderList, List<Product> productList) {
         this.context = context;
         this.orderList = orderList;
