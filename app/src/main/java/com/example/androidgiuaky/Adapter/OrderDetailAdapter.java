@@ -86,9 +86,6 @@ public class OrderDetailAdapter extends BaseAdapter {
             tvPriceOrderDetailItem = view.findViewById(R.id.tvPriceOrderDetailItem);
             tvAmountOrderDetailItem = view.findViewById(R.id.tvAmountOrderDetailItem);
             ivImageOrderDetailItem = view.findViewById(R.id.ivImageOrderDetailItem);
-
-
-
         }
     }
 }

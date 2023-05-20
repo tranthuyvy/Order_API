@@ -37,16 +37,8 @@ public class OrderActivity extends AppCompatActivity {
     List<Order> orderList_tmp = new ArrayList<>();
     List<Order> filteredOrders = new ArrayList<>();
     String[] orderStatuses = {"ALL", "PREPARE" , "SUCCESS", "CANCELED"};
-    int userID = 10101;//            {
-//            "id": 10051,
-//            "username": "mynth30",
-//            "password": "mynth30",
-//            "email": "mynth30@gmail.com",
-//            "role": "ROLE_USER",
-//            "firstName": "mynth30",
-//            "lastName": "mynth30",
-//            "address": ""
-//},
+    int userID = 10101;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
